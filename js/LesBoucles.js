@@ -304,6 +304,18 @@ Astuce : vous devrez utiliser plusieurs conditions dans votre boucle.
             }
             }
             
+/*Tu as un tableau associatif, donc des paires clef/valeur.
+Une opération très fréquente sur les applications est d'afficher ces paires à l'utilisateur.
+Pour ce faire tu utilises la boucle for/in qui te permet d'accéder aux index (firstname, lastname etc...).
+Tu peux donc afficher les indexes et grâce aux index du coup tu peux récupérer les valeurs.
+Ensuite je vous demande de rajouter un index qui nécessite de votre part un traitement particulier
+L'index sexe contient un boolean cela veut dire que en l'état il ne peut pas être afficher tel quel à l'utilisateur final.
+Tu ne vas pas afficher sexe: true. Il ne comprendrait pas. Tu dois afficher homme ou femme.
+Du coup dans ta boucle, tu vérifies si l'index actuel est "sexe" si c'est le cas au lieu de juste afficher la valeur,
+tu affiches homme ou femme selon qu'on a true ou false.
+Cela consiste à moduler l'afficher selon l'indexe ce qui est aussi très courant
+*/
+
 
 console.log("\n###Exercice 8###");
 
